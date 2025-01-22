@@ -42,8 +42,26 @@ if (!false) {
 
 const myNumber = 1
 
-myNumber > 5 ? 
-  console.log("number is greater than 5") 
-  : 
+myNumber > 5 ?
+  console.log("number is greater than 5")
+  :
   console.log("number is lesser than 5")
 
+
+//switch statement
+
+const medal1 = "qweqweqweqweqew";
+
+switch (medal1) {
+  case "Silver":
+    console.log("Silver medal");
+    break;
+  case "Bronze":
+    console.log("Bronze medal");
+    break;
+  case "Gold":
+    console.log("Gold medal");
+    break;
+  default:
+    console.log("No medal");
+}
